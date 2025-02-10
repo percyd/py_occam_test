@@ -5,6 +5,8 @@ py-occam: Python implementation of OCCAM variable-based reconstructability analy
 __version__ = "0.1.0"
 
 from .manager import Occam
-from .utils import load_data
+from .state import State
+from .variable_list import VariableList
+from .model import Model, StateSpace
 
-__all__ = ["Occam", "load_data"]
+__all__ = ['Occam', 'State', 'VariableList', 'Model', 'StateSpace']
