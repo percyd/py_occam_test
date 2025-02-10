@@ -7,7 +7,7 @@ from collections import defaultdict
 from .definitions import StateSpace, State, VariableList
 from .relations import Relation  # Add this import
 
-class StateSpaceImplementation:
+class StateSpace:
     """Implementation class for StateSpace operations"""
     
     @staticmethod
