@@ -10,7 +10,7 @@ import yaml
 from pathlib import Path
 
 # Import modularized components
-#from .variable_list import VariableList
+from .variable_list import VariableList
 from .state_space import StateSpace
 from .model import Model
 from .relation import Relation
