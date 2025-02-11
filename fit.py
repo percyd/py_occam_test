@@ -7,7 +7,10 @@ from dataclasses import dataclass, field
 import time
 from pathlib import Path
 
-from .core import Model, StateSpace, VariableList
+from .state import State  # Add this import
+from .model import Model
+from .variable_list import VariableList
+from .state_space import StateSpace
 
 @dataclass
 class Fit:

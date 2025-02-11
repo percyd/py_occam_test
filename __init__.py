@@ -8,7 +8,8 @@ __version__ = "0.1.0"
 
 from .model import Model
 from .relation import Relation
-from .state import State, StateSpace
+from .state import State
+from .state_space import StateSpace
 from .variable_list import VariableList
 from .manager import Occam
 from .search import Search

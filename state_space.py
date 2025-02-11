@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from collections import defaultdict
 from .definitions import StateSpace, State, VariableList
-from .relations import Relation  # Add this import
+from .relation import Relation  # Add this import
 
 class StateSpace:
     """Implementation class for StateSpace operations"""

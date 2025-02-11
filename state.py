@@ -3,7 +3,7 @@
 from typing import List, Dict, Tuple, Optional, Union
 from .definitions import State, VariableList
 
-class StateImplementation:
+class State:
     """Implementation class for State operations"""
     
     @staticmethod 
