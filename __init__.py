@@ -4,13 +4,23 @@ py-occam: Python implementation of OCCAM variable-based reconstructability analy
 
 __version__ = "0.1.0"
 
-from .manager import Occam
-from .state import State
-from .variable_list import VariableList
+# py_occam_test/__init__.py
+
 from .model import Model
-from .state_space import StateSpace
-from core import *
+from .relation import Relation
+from .state import State, StateSpace
+from .variable_list import VariableList
+from .manager import Occam
 from .search import Search
 from .fit import Fit
 
-__all__ = ['Occam', 'State', 'VariableList', 'Model', 'StateSpace']
+__all__ = [
+    'Model',
+    'Relation',
+    'State',
+    'StateSpace',
+    'VariableList',
+    'Occam',
+    'Search',
+    'Fit'
+]
