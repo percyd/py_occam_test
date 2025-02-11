@@ -9,5 +9,8 @@ from .state import State
 from .variable_list import VariableList
 from .model import Model
 from .state_space import StateSpace
+from core import *
+from .search import Search
+from .fit import Fit
 
 __all__ = ['Occam', 'State', 'VariableList', 'Model', 'StateSpace']
